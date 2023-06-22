@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'SVN-Gilroy'; /* Tên của font chữ */
-    src: url('/thuctap/font/svn-gilroy_med.ttf'); /* Đường dẫn đến file font chữ trên máy chủ web */
+    src: url('/font/svn-gilroy_med.ttf'); /* Đường dẫn đến file font chữ trên máy chủ web */
   }
 * {
     margin: 0;
