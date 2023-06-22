@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'SVN-Gilroy'; /* Tên của font chữ */
-    src: url('/font/svn-gilroy_med.ttf'); /* Đường dẫn đến file font chữ trên máy chủ web */
+    src: url('font/svn-gilroy_med.ttf'); /* Đường dẫn đến file font chữ trên máy chủ web */
   }
 *{
     margin: 0 ;
@@ -853,7 +853,7 @@ z-index: 10;
     position: relative;
     padding: 0px;
     width: 220px;
-    height: 416px;
+    height: auto;
  }
  .product-img{
     position: relative;
