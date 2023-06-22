@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preload" href="//bizweb.dktcdn.net/100/438/408/themes/904142/assets/svn-gilroy_med.ttf?1687314391876" as="font" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" href="//bizweb.dktcdn.net/100/438/408/themes/904142/assets/svn-gilroy_semibold.ttf?1687314391876" as="font" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" href="//bizweb.dktcdn.net/100/438/408/themes/904142/assets/svn-gilroy_medium.ttf?1687314391876" as="font" type="font/ttf" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="layout">
+        <!-- Phần đầu -->
+        <head>
+            <div class="header">
+                <div class="header-sale">
+                    <a href="" style="background: url(img/headerfooter/header/bannertop.webp) center center no-repeat">
+                    </a>
+                </div>
+                <div class="main-menu">
+                    <div class="container menu-container">
+                        <div class="topbar-wrap">
+                            <div class="topbar-top">
+                                <div class="topbar-top__left">
+                                    <div class="logo">
+                                        <a href="index.html">
+                                            <img src="img/headerfooter/header/logo.svg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="search">
+                                        <div class="search-head">
+                                            <form action="">
+                                                <input type="text" placeholder="Tìm Kiếm">
+                                                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="topbar-top__right">
+                                    <div class="list-contact">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <a href="" class="map">Tìm <span class="number">230+</span> cửa hàng</a>
+                                        <i class="fa-solid fa-phone"></i>
+                                        <a href="" class="phone"><b>1800 2086</b> </a>
+                                        <span class="text-free">FREE</span>
+                                        <span style="margin: 0 8px;">-</span>
+                                        <span style="margin: 0 8px; color: #11006F; font-weight: 600; font-size: 16px;">Đặt hàng gọi</span>
+                                        <i class="fa-solid fa-phone"></i>
+                                        <a href="" class="phone">02499986999 </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="topbar-bottom">
+                            <div class="topbar-bottom__left">
+                                <div class="nav-menu">
+                                    <ul class="items-nav">
+                                        <li class="item-nav one"><a href="saleup.html">SALE UP TO 50%</a></li>
+                                        <li class="item-nav one">
+                                            <a href="">NỮ</a> 
+                                            <div class="navs-one">
+                                                <ul class="nav-one">
+                                                    <li class="li-item-1">
+                                                        <a href="">ÁO NỮ</a>
+                                                            <ul class="nav-two">
+                                                            <li><a href="">Áo Polo</a></li>
+                                                            <li><a href="">Áo Thun</a></li>
+                                                            <li><a href="">Áo Khoác</a></li>
+                                                            <li><a href="">Áo Chống Nắng</a></li>
+                                                            </ul>
+                                                    </li>
+                                                    <li class="li-item-1">
+                                                        <a href="">QUẦN NỮ</a>
+                                                        <ul class="nav-two">
+                                                            <li><a href="">Quần Jeans</a></li>
+                                                            <li><a href="">Quần Âu</a></li>
+                                                            <li><a href="">Quần Kaki</a></li>
+                                                            <li><a href="">Quần Short</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="li-item-1"><a href="">ĐỒ MẶC TRONG</a></li>
+                                                    <li class="li-item-1"><a href="">NỔI BẬT</a></li>
+                                                    <li class="li-item-1"><a href="">Phụ Kiện</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="item-nav one">
+                                            <a href="">NAM</a>
+                                            <div class="navs-one">
+                                                <ul class="nav-one nam">
+                                                    <li class="li-item-1">
+                                                        <a href="">ÁO NAM</a>
+                                                            <ul class="nav-two">
+                                                            <li><a href="">Áo Polo</a></li>
+                                                            <li><a href="">Áo Thun</a></li>
+                                                            <li><a href="">Áo Khoác</a></li>
+                                                            <li><a href="">Áo Chống Nắng</a></li>
+                                                            </ul>
+                                                    </li>
+                                                    <li class="li-item-1">
+                                                        <a href="">QUẦN NAM</a>
+                                                        <ul class="nav-two">
+                                                            <li><a href="">Quần Jeans</a></li>
+                                                            <li><a href="">Quần Âu</a></li>
+                                                            <li><a href="">Quần Kaki</a></li>
+                                                            <li><a href="">Quần Short</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="li-item-1"><a href="">ĐỒ MẶC TRONG</a></li>
+                                                    <li class="li-item-1"><a href="">NỔI BẬT</a></li>
+                                                    <li class="li-item-1"><a href="">Phụ Kiện</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="item-nav one">
+                                            <a href="">TRẺ EM</a>
+                                            <div class="navs-one">
+                                                <ul class="nav-one te">
+                                                    <li class="li-item-1">
+                                                        <a href="">ÁO TRẺ EM</a>
+                                                            <ul class="nav-two">
+                                                            <li><a href="">Áo Polo</a></li>
+                                                            <li><a href="">Áo Thun</a></li>
+                                                            <li><a href="">Áo Khoác</a></li>
+                                                            <li><a href="">Áo Chống Nắng</a></li>
+                                                            </ul>
+                                                    </li>
+                                                    <li class="li-item-1">
+                                                        <a href="">QUẦN TRẺ EM</a>
+                                                        <ul class="nav-two">
+                                                            <li><a href="">Quần Jeans</a></li>
+                                                            <li><a href="">Quần Âu</a></li>
+                                                            <li><a href="">Quần Kaki</a></li>
+                                                            <li><a href="">Quần Short</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="li-item-1"><a href="">ĐỒ BỘ TRẺ EM</a></li>
+                                                    <li class="li-item-1"><a href="">NỔI BẬT</a></li>
+                                                    <li class="li-item-1"><a href="">Phụ Kiện</a></li>
+                                                </ul>
+                                            </div>
+                                        
+                                        </li>
+                                        <li class="item-nav one">
+                                            <a href="">BỘ SƯU TẬP</a>
+                                            <div class="bst">
+                                                <ul class="bst-one">
+                                                    <li>
+                                                        <a class="" href="" title="YODY Sport">
+                                                        YODY Sport
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="" href="" title="Xuân/Hè 2023">
+                                                        Xuân/Hè 2023
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="" href="" title="Polo Yody - Everyday Wear">
+                                                        Polo Yody - Everyday Wear
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="" href="" title="Thời Trang Công Sở">
+                                                        Thời Trang Công Sở
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                            
+                                                        <a class="" href="" title="Áo Khoác 3C Plus">
+                                                        Áo Khoác 3C Plus
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </li>
+                                        <li class="item-nav one"><a href="">ĐỒNG PHỤC</a></li>
+                                        <li class="item-nav one">
+                                            <a href="">VỀ YODY</a>
+                                            <div class="bst">
+                                                <ul class="bst-one">
+                                                    <li>
+                                                        <a class="" href="" title="YODY Sport">
+                                                        Bảo vệ khách hàng
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="" href="" title="Xuân/Hè 2023">
+                                                        Ưu đãi & Chính sách
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="" href="" title="Polo Yody - Everyday Wear">
+                                                        Câu chuyện và nhân vật
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="item-nav one">
+                                            <a href="blog.html">BLOG</a>
+                                            <div class="bst">
+                                                <ul class="bst-one">
+                                                    <li>
+                                                        <a class="" href="" title="YODY Sport">
+                                                        Em đẹp 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="" href="" title="Xuân/Hè 2023">
+                                                        Chàng bảnh bao
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="" href="" title="Polo Yody - Everyday Wear">
+                                                        Bé khỏe bé đẹp
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="" href="" title="Thời Trang Công Sở">
+                                                        Làm đẹp
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="" href="" title="Áo Khoác 3C Plus">
+                                                        Đồng phục
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <div class="overlay"></div>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="topbar-bottom__right">
+                                <div class="cart">
+                                    <a class="cart-warp" href="giohang-trong.html">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <span class="number-cart">0</span>
+                                        <span class="gio-hang">GIỎ HÀNG</span>
+                                    </a>
+                                    <div class="cart-content">
+                                        <img class="arrow-cart" src="img/headerfooter/header/arrow-cart.webp" alt="">
+                                        <div class="cart-main-one">
+                                            <div class="cart-main-two">
+                                                <img src="img/headerfooter/header/blank_cart.svg" alt="">
+                                                <p>Giỏ hàng của bạn đang trống</p>
+                                                <a href="">Đăng nhập/Đăng ký</a>
+                                                <span></span>
+                                                <a href="">Mua ngay</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="user">
+                                    <i class="fa-regular fa-user"></i>
+                                    <div class="user-login">
+                                    <a class="register" href="dangky.html">ĐĂNG KÝ</a>
+                                        <span>/</span>
+                                    <a class="login" href="dangnhap.html">ĐĂNG NHẬP</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </head>
+        <!-- Phần chính -->
+        <main>
+            <div class="header-blog">
+                <div class="header-blog_bgr">
+                    <div class="text">
+                        <div class="content">
+                            <span class="content-span">Hành trình kết nối</span>
+                            <p class="title">
+                                <a href="">YODY - Mặc mỗi ngày, thoải mái mỗi ngày</a>
+                            </p>
+                            <p class="sum">Tại YODY, chúng tôi tin rằng mỗi người ở mọi nơi trên thế giới này đều có quyền lựa chọn việc mình bắt đầu một ngày mới như thế nào qua việc mặc bộ trang phục hàng ngày thoải mái, tự tin và đầy cảm
+                                hứng.
+                            </p>
+                            <span class="date1">
+                                <img src="https://bizweb.dktcdn.net/100/438/408/themes/904142/assets/clockico.svg" alt="" class="dongho">
+                                <span class="author1-text1">14/06/2023</span>
+                            </span>
+                            <a href="" class="link">Đọc ngay thôi</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-blog">
+                <div class="contairner">
+                    <h2 class="title">TIN MỚI NHẤT</h2>
+                    <div class="row">
+                        <div class="left">
+                            <div class="left-item">
+                                <a href="" title="10+ công thức chỉnh màu Lightroom ĐƠN GIẢN, ĐẸP LUNG LINH">
+                                    <img class="lazyload loaded" src="https://bizweb.dktcdn.net/thumb/large/100/438/408/articles/hinh-xam-dep-cho-nu-yody-vn-123.jpg?v=1686646843353" data-src="https://bizweb.dktcdn.net/100/438/408/articles/cong-thuc-chinh-mau-lightroom.jpg?v=1686381004110"
+                                        alt="YODY - Mặc Mỗi Ngày, Thoải Mái Mỗi Ngày" data-was-processed="true">
+                                    <div class="content1">
+                                        <span class="left-s  pan">Có thể bạn chưa biết</span>
+                                        <h3 class="left-h3">10+ công thức chỉnh màu Lightroom ĐƠN GIẢN, ĐẸP LUNG LINH</h3>
+                                        <p class="left-p">Công thức chỉnh màu Lightroom thế nào để bức ảnh luôn đẹp và để lại ấn tượng? Cùng YODY khám phá ngay với bài viết chi tiết dưới đây nhé! 1....</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="right-item">
+                                <div class="item">
+                                    <a href="" class="image"><img class="lazyload" src="https://bizweb.dktcdn.net/thumb/large/100/438/408/articles/hinh-xam-dep-cho-nu-yody-vn-123.jpg?v=1686646843353" alt="TOP những bộ phim hài lãng mạn hay nhất Trung Quốc HAY NHẤT MỌI THỜI ĐẠI"></a>
+                                    <div class="content2">
+                                        <h3><a href="" title="TOP những bộ phim hài lãng mạn hay nhất Trung Quốc HAY NHẤT MỌI THỜI ĐẠI">TOP những bộ phim hài lãng mạn hay nhất Trung Quốc HAY NHẤT MỌI THỜI ĐẠI</a></h3>
+                                        <p>Bạn là con nghiện và yêu thích những bộ phim hài lãng mạn hay nhất Trung Quốc. Cùng YODY điểm danh những cái tên dưới đây nhé! 1. Cá mực hầm...</p>
+                                        <p class="meta">
+                                            <span class="author">Yody</span>
+                                            <span class="date">12/06/2023</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <a href="" class="image"><img class="lazyload loaded" src="//bizweb.dktcdn.net/thumb/large/100/438/408/articles/mess-tin-nhan-troll-nguoi-yeu-yodyvn.jpg?v=1686538509463" data-src="//bizweb.dktcdn.net/thumb/large/100/438/408/articles/mess-tin-nhan-troll-nguoi-yeu-yodyvn.jpg?v=1686538509463"
+                                            alt="Tuyển tập 99+ mess tin nhắn troll người yêu cười vỡ bụng" data-was-processed="true"></a>
+                                    <div class="content2">
+                                        <a href="" class="chude"></a>
+    
+                                        <h3><a href="" title="Tuyển tập 99+ mess tin nhắn troll người yêu cười vỡ bụng">Tuyển tập 99+ mess tin nhắn troll người yêu cười vỡ bụng</a></h3>
+                                        <p>
+                                            Ngày này, các cặp đôi thường có xu hướng troll nhau, bày&nbsp;ra những trò đùa cợt hài hước để mối quan hệ thêm “mặn nồng”. Dưới đây, YODY sẽ gợi...</p>
+                                        <p class="meta">
+                                            <span class="author">Yody</span>
+                                            <span class="date">12/06/2023</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <a href="" class="image"><img class="lazyload loaded" src="//bizweb.dktcdn.net/thumb/large/100/438/408/articles/dong-ho-nam-cao-cap-yody-vn.jpg?v=1685757921870" data-src="//bizweb.dktcdn.net/thumb/large/100/438/408/articles/dong-ho-nam-cao-cap-yody-vn.jpg?v=1685757921870"
+                                            alt="TOP 10+ thương hiệu đồng hồ nam cao cấp phổ biến nhất tại Việt Nam" data-was-processed="true"></a>
+                                    <div class="content2">
+                                        <h3><a href="" title="TOP 10+ thương hiệu đồng hồ nam cao cấp phổ biến nhất tại Việt Nam">TOP 10+ thương hiệu đồng hồ nam cao cấp phổ biến nhất tại Việt Nam</a></h3>
+    
+                                        <p>Bạn đang tìm kiếm những thương hiệu đồng hồ nam cao cấp nhưng không biết đâu là địa chỉ tin cậy. Cùng YODY theo dõi bài viết chi tiết dưới...</p>
+                                        <p class="meta">
+                                            <span class="author">Yody</span>
+                                            <span class="date">03/06/2023</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <a href="" class="image"><img class="lazyload loaded" src="//bizweb.dktcdn.net/thumb/large/100/438/408/articles/toc-cua-yody-vn.jpg?v=1685589754007" data-src="//bizweb.dktcdn.net/thumb/large/100/438/408/articles/toc-cua-yody-vn.jpg?v=1685589754007"
+                                            alt="TOP 10+ kiểu tóc cua CHẤT NHẤT, DẪN ĐẦU XU HƯỚNG 2023" data-was-processed="true"></a>
+                                    <div class="content2">
+                                        <h3><a href="" title="TOP 10+ kiểu tóc cua CHẤT NHẤT, DẪN ĐẦU XU HƯỚNG 2023">TOP 10+ kiểu tóc cua CHẤT NHẤT, DẪN ĐẦU XU HƯỚNG 2023</a></h3>
+                                        <p>Tóc cua được mệnh danh là kiểu tóc cổ điển với mọi chàng trai. Điểm sáng của kiểu tóc này chính là việc không có bất kỳ yêu cầu nào...</p>
+                                        <p class="meta">
+                                            <span class="author">Yody</span>
+                                            <span class="date">01/06/2023</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <a href="" class="image"><img class="lazyload loaded" src="//bizweb.dktcdn.net/thumb/large/100/438/408/articles/dong-ho-thong-minh-nu-yodyvn.jpg?v=1685688520883" data-src="//bizweb.dktcdn.net/thumb/large/100/438/408/articles/dong-ho-thong-minh-nu-yodyvn.jpg?v=1685688520883"
+                                            alt="Tổng hợp 10 mẫu đồng hồ thông minh nữ được ưa chuộng nhất" data-was-processed="true"></a>
+                                    <div class="content2">
+                                        <h3><a href="" title="Tổng hợp 10 mẫu đồng hồ thông minh nữ được ưa chuộng nhất">Tổng hợp 10 mẫu đồng hồ thông minh nữ được ưa chuộng nhất</a></h3>
+    
+                                        <p>Nhờ thiết kế đẹp mắt, thể thao cùng nhiều tính năng bổ ích, đồng hồ thông minh đã làm siêu lòng rất nhiều chị em. Dưới đây, YODY sẽ chia...</p>
+                                        <p class="meta">
+                                            <span class="author">Yody</span>
+                                            <span class="date">02/06/2023</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <a href="" class="image"><img class="lazyload loaded" src="//bizweb.dktcdn.net/thumb/large/100/438/408/articles/thoi-trang-trung-nien-yodyvn-1.jpg?v=1685604635303" data-src="//bizweb.dktcdn.net/thumb/large/100/438/408/articles/thoi-trang-trung-nien-yodyvn-1.jpg?v=1685604635303"
+                                            alt="TOP 10 món đồ thời trang trung niên nữ cực sang và trẻ trung" data-was-processed="true"></a>
+                                    <div class="content2">
+                                        <h3><a href="" title="TOP 10 món đồ thời trang trung niên nữ cực sang và trẻ trung">TOP 10 món đồ thời trang trung niên nữ cực sang và trẻ trung</a></h3>
+                                        <p>Khi bước vào độ tuổi U40, U50, các quý cô thường gặp rất nhiều khó khăn trong việc lựa chọn bộ quần áo phù hợp. Đừng lo, dưới đây, YODY...</p>
+                                        <p class="meta">
+                                            <span class="author">Yody</span>
+                                            <span class="date">01/06/2023</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <a href="" class="image"><img class="lazyload loaded" src="//bizweb.dktcdn.net/thumb/large/100/438/408/articles/biet-danh-cho-con-gai-yody-vn.jpg?v=1678434658783" data-src="//bizweb.dktcdn.net/thumb/large/100/438/408/articles/biet-danh-cho-con-gai-yody-vn.jpg?v=1678434658783"
+                                            alt="Top 100 biệt danh cho con gái nghe đã muốn TAN CHẢY" data-was-processed="true"></a>
+                                    <div class="content2">
+                                        <h3><a href="" title="Top 100 biệt danh cho con gái nghe đã muốn TAN CHẢY">Top 100 biệt danh cho con gái nghe đã muốn TAN CHẢY</a></h3>
+                                        <p>Bạn sắp chào đón thiên thần nhỏ của gia đình. Bạn đang muốn đặt biệt danh cho con gái nhưng chưa chọn được cái tên ấn tượng. Cùng YODY tìm...</p>
+                                        <p class="meta">
+                                            <span class="author">Yody</span>
+                                            <span class="date">10/03/2023</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <a href="" class="image"><img class="lazyload loaded" src="//bizweb.dktcdn.net/thumb/large/100/438/408/articles/kieu-toc-cho-be-trai-yody-vn-11.jpg?v=1671871579487" data-src="//bizweb.dktcdn.net/thumb/large/100/438/408/articles/kieu-toc-cho-be-trai-yody-vn-11.jpg?v=1671871579487"
+                                            alt="10+ kiểu tóc cho bé trai các bố mẹ nên tham khảo" data-was-processed="true"></a>
+                                    <div class="content2">
+                                        <h3><a href="" title="10+ kiểu tóc cho bé trai các bố mẹ nên tham khảo">10+ kiểu tóc cho bé trai các bố mẹ nên tham khảo</a></h3>
+                                        <p>Không chỉ các bé gái mà các bé trai ngày nay cũng được các bố mẹ chăm chút cho ngoại hình vô cùng. Năm 2023 sắp đến các bố mẹ...</p>
+                                        <p class="meta">
+                                            <span class="author">Yody</span>
+                                            <span class="date">24/12/2022</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <a href="" class="image"><img class="lazyload" src="https://bizweb.dktcdn.net/thumb/large/100/438/408/articles/dong-phuc-di-bien.png?v=1634182824180" alt="1000+ mẫu áo đồng phục đi biển sành điệu NỔI BẦN BẬT hè này"></a>
+                                    <div class="content2">
+                                        <h3><a href="" title="1000+ mẫu áo đồng phục đi biển sành điệu NỔI BẦN BẬT hè này">1000+ mẫu áo đồng phục đi biển sành điệu NỔI BẦN BẬT hè này</a></h3>
+                                        <p>
+                                            Các mẫu áo đồng phục đi biển không chỉ đem lại sự đồng điệu, thống nhất cho các thành viên trong gia đình, đội nhóm hoặc đoàn thể, mà còn...</p>
+                                        <p class="meta">
+                                            <span class="author">Yody</span>
+                                            <span class="date">11/05/2023</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <a href="" class="image"><img class="lazyload" src="https://bizweb.dktcdn.net/thumb/large/100/438/408/articles/dong-phuc-gia-dinh-di-du-lich-he-yody-vn-19.jpg?v=1683540033357" data-src="//bizweb.dktcdn.net/thumb/large/100/438/408/articles/dong-phuc-gia-dinh-di-du-lich-he-yody-vn-19.jpg?v=1683540033357"
+                                            alt="5+ Gợi ý cho đồng phục gia đình đi du lịch ngày hè thêm ý nghĩa"></a>
+                                    <div class="content2">
+                                        <a href="" class="chude"></a>
+                                        <h3><a href="" title="5+ Gợi ý cho đồng phục gia đình đi du lịch ngày hè thêm ý nghĩa">5+ Gợi ý cho đồng phục gia đình đi du lịch ngày hè thêm ý nghĩa</a></h3>
+                                        <p>Mỗi mùa hạ về, đây cũng là lúc mà các gia đỉnh bắt đầu rộn ràng lựa chọn những chuyến đi cho cả nhà du lịch. Đi kèm những chuyến...</p>
+                                        <p class="meta">
+                                            <span class="author">Yody</span>
+                                            <span class="date">08/05/2023</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="title">DANH MỤC TIN TỨC</h2>
+                    <div class="comtainer-tab">
+                        <div class="row1">
+                            <div class="tab1">
+                                <div class="iteam-big">
+                                    <a href="" class="img-link">
+                                        <img src="img/blog/hinh-xam-cha-me-yody-vn-64.webp" alt="" class="img-icon">
+                                    </a>
+                                    <div class="big-content">
+                                        <h3><a href="" class="big-content-link">Gợi ý 99+ ý tưởng hình xăm cha mẹ ý nghĩa ấn tượng</a></h3>
+                                        <p class="text-p">Hình xăm cha mẹ là một trong những hình xăm vô cùng ý nghĩa đối với mọi người. Nó thể hiện sự quan trong của bố mẹ đối với bạn...</p>
+                                        <a href="" class="chude">Có thể bạn chưa biết</a>
+                                        <p class="meta1">
+                                            <span class="author1">
+                                                <img src="img/blog/logoo.webp" alt="">
+                                                <span class="author1-text">Nguyễn Hằng</span>
+                                            </span>
+                                            <span class="date1">
+                                                <img src="https://bizweb.dktcdn.net/100/438/408/themes/904142/assets/clockico.svg" alt="">
+                                                <span class="author1-text">14/06/2023</span>
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="iteam1">
+                                    <a href="">
+                                        <img src="img/blog/xamvainu.webp" alt="" class="iteam1-img">
+                                    </a>
+                                    <div class="iteam1-text">
+                                        <h3><a href="" class="big-content-link">1001+ Hình xăm vai nữ đẹp nhất KHÔNG THỂ BỎ QUA</a></h3>
+                                        <span class="date1">
+                                            <img src="	https://bizweb.dktcdn.net/100/438/408/themes/904142/assets/clockico.svg" alt="">
+                                            <span class="author1-text1">14/06/2023</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="iteam1">
+                                    <a href="">
+                                        <img src="img/blog/phim-trinh-tham-hay-yody-vn-21.webp" alt="" class="iteam1-img">
+                                    </a>
+                                    <div class="iteam1-text">
+                                        <h3><a href="" class="big-content-link">TOP 20 phim trinh thám hya nhất mọi thời đại phải xem</a></h3>
+                                        <span class="date1">
+                                            <img src="	https://bizweb.dktcdn.net/100/438/408/themes/904142/assets/clockico.svg" alt="">
+                                            <span class="author1-text1">14/06/2023</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="iteam1">
+                                    <a href="">
+                                        <img src="img/blog/top-phim-han-quoc-hay-nhat-ve-tinh-yeu-yody-vn.webp" alt="" class="iteam1-img">
+                                    </a>
+                                    <div class="iteam1-text">
+                                        <h3><a href="" class="big-content-link">Top phim hàn quốc hay nhất về tình yêu nhất định phải xem</a></h3>
+                                        <span class="date1">
+                                            <img src="	https://bizweb.dktcdn.net/100/438/408/themes/904142/assets/clockico.svg" alt="">
+                                            <span class="author1-text1">14/06/2023</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <a href="" class="more">
+                                    <span>
+                                        Xem chi tiết
+                                    </span>
+                                    <img src="https://bizweb.dktcdn.net/100/438/408/themes/904142/assets/more-blog.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="tab1">
+                                <div class="iteam-big">
+                                    <a href="" class="img-link">
+                                        <img src="img/blog/dong-ho-nam-cao-cap-yody-vn.webp" alt="" class="img-icon">
+                                    </a>
+                                    <div class="big-content">
+                                        <h3><a href="" class="big-content-link">TOP 10+ thương hiệu đồng hồ nam phổ biến nhất tại Việt Nam</a></h3>
+                                        <p class="text-p">Bạn đang tìm kiếm nhưng thương hiệu đồng hô nam cao cấp nhưng không biết đâu là địa chỉ tin cậy . Cùng YODY theo dõi bài viết chi tiết dưới...</p>
+                                        <a href="" class="chude">Có thể bạn chưa biết</a>
+                                        <p class="meta1">
+                                            <span class="author1">
+                                                <img src="img/blog/logoo.webp" alt="">
+                                                <span class="author1-text">Phương Thảo</span>
+                                            </span>
+                                            <span class="date1">
+                                                <img src="	https://bizweb.dktcdn.net/100/438/408/themes/904142/assets/clockico.svg" alt="">
+                                                <span class="author1-text">14/06/2023</span>
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="iteam1">
+                                    <a href="">
+                                        <img src="img/blog/toc-cua-yody-vn.webp" alt="" class="iteam1-img">
+                                    </a>
+                                    <div class="iteam1-text">
+                                        <h3><a href="" class="big-content-link">TOP 10+ kiểu tóc cua CHẤT NHẤT, DẪN ĐẦU XU HƯỚNG 2023</a></h3>
+                                        <span class="date1">
+                                            <img src="	https://bizweb.dktcdn.net/100/438/408/themes/904142/assets/clockico.svg" alt="">
+                                            <span class="author1-text1">14/06/2023</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="iteam1">
+                                    <a href="">
+                                        <img src="img/blog/lac-tay-nam-yody-vn-1.webp" alt="" class="iteam1-img">
+                                    </a>
+                                    <div class="iteam1-text">
+                                        <h3><a href="" class="big-content-link">Đeo lắc tay nam có ý nghĩa gì? Cách đeo lắc tay nam ĐÚNG ĐIỆU CÁ TÍNH</a></h3>
+                                        <span class="date1">
+                                            <img src="	https://bizweb.dktcdn.net/100/438/408/themes/904142/assets/clockico.svg" alt="">
+                                            <span class="author1-text1">14/06/2023</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="iteam1">
+                                    <a href="">
+                                        <img src="img/blog/toc-che-mat-yodyvn-1.webp" alt="" class="iteam1-img">
+                                    </a>
+                                    <div class="iteam1-text">
+                                        <h3><a href="" class="big-content-link">Lưu ngay 7 kiểu tóc che mắt cực ngầu và bảnh bao cho nam</a></h3>
+                                        <span class="date1">
+                                            <img src="	https://bizweb.dktcdn.net/100/438/408/themes/904142/assets/clockico.svg" alt="">
+                                            <span class="author1-text1">14/06/2023</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <a href="" class="more">
+                                    <span>
+                                        Xem chi tiết
+                                    </span>
+                                    <img src="https://bizweb.dktcdn.net/100/438/408/themes/904142/assets/more-blog.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="tab1">
+                                <div class="iteam-big">
+                                    <a href="" class="img-link">
+                                        <img src="img/blog/dong-ho-thong-minh-nu-yodyvn (1).webp" alt="" class="img-icon">
+                                    </a>
+                                    <div class="big-content">
+                                        <h3><a href="" class="big-content-link">Tổng hợp 10 mẫu đồng hồ thông minh nữ được ưa chuộng nhất</a></h3>
+                                        <p class="text-p">Nhờ thiết kế đẹp mắt, thể thao cùng nhiều tính năng bổ ích, đồng hồ thông minh đã làm siêu lòng rất nhiều chị em. Dưới đây, YODY sẽ chia...</p>
+                                        <a href="" class="chude">Có thể bạn chưa biết</a>
+                                        <p class="meta1">
+                                            <span class="author1">
+                                                <img src="img/blog/logoo.webp" alt="">
+                                                <span class="author1-text">Tống Ơ Giang</span>
+                                            </span>
+                                            <span class="date1">
+                                                <img src="	https://bizweb.dktcdn.net/100/438/408/themes/904142/assets/clockico.svg" alt="">
+                                                <span class="author1-text">14/06/2023</span>
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="iteam1">
+                                    <a href="">
+                                        <img src="img/blog/thoi-trang-trung-nien-yodyvn-1 (1).webp" alt="" class="iteam1-img">
+                                    </a>
+                                    <div class="iteam1-text">
+                                        <h3><a href="" class="big-content-link">TOP 10 món đồ thời trang trung niên nữ cực sang và trẻ trung</a></h3>
+                                        <span class="date1">
+                                            <img src="	https://bizweb.dktcdn.net/100/438/408/themes/904142/assets/clockico.svg" alt="">
+                                            <span class="author1-text1">14/06/2023</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="iteam1">
+                                    <a href="">
+                                        <img src="img/blog/toc-xoan-duoi-cho-hoc-sinh-yodyvn.webp" alt="" class="iteam1-img">
+                                    </a>
+                                    <div class="iteam1-text">
+                                        <h3><a href="" class="big-content-link">10+ kiểu tóc xoăn đuôi cho học sinh cực xinh và dễ thương</a></h3>
+                                        <span class="date1">
+                                            <img src="	https://bizweb.dktcdn.net/100/438/408/themes/904142/assets/clockico.svg" alt="">
+                                            <span class="author1-text1">14/06/2023</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="iteam1">
+                                    <a href="">
+                                        <img src="img/blog/cac-kieu-ao-voan-tay-lo.webp" alt="" class="iteam1-img">
+                                    </a>
+                                    <div class="iteam1-text">
+                                        <h3><a href="" class="big-content-link">Các kiểu áo voan tay lỡ đẹp nhất, sang chảnh nhất năm 2023</a></h3>
+                                        <span class="date1">
+                                            <img src="	https://bizweb.dktcdn.net/100/438/408/themes/904142/assets/clockico.svg" alt="">
+                                            <span class="author1-text1">14/06/2023</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <a href="" class="more">
+                                    <span>
+                                        Xem chi tiết
+                                    </span>
+                                    <img src="https://bizweb.dktcdn.net/100/438/408/themes/904142/assets/more-blog.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="tab1">
+                                <div class="iteam-big">
+                                    <a href="" class="img-link">
+                                        <img src="img/blog/biet-danh-cho-con-gai-yody-vn.webp" alt="" class="img-icon">
+                                    </a>
+                                    <div class="big-content">
+                                        <h3><a href="" class="big-content-link">Top 100 biệt danh cho con gái nghe đã muốn TAN CHẢY</a></h3>
+                                        <p class="text-p">Bạn sắp chào đón thiên thần nhỏ của gia đình. Bạn đang muốn đặt biệt danh cho con gái nhưng chưa chọn được cái tên ấn tượng. Cùng YODY tìm...</p>
+                                        <a href="" class="chude">Có thể bạn chưa biết</a>
+                                        <p class="meta1">
+                                            <span class="author1">
+                                                <img src="img/blog/logoo.webp" alt="">
+                                                <span class="author1-text">Ngu A Tuấn</span>
+                                            </span>
+                                            <span class="date1">
+                                                <img src="	https://bizweb.dktcdn.net/100/438/408/themes/904142/assets/clockico.svg" alt="">
+                                                <span class="author1-text">14/06/2023</span>
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="iteam1">
+                                    <a href="">
+                                        <img src="img/blog/kieu-toc-cho-be-trai-yody-vn-11.webp" alt="" class="iteam1-img">
+                                    </a>
+                                    <div class="iteam1-text">
+                                        <h3><a href="" class="big-content-link">10+ kiểu tóc cho bé trai các bố mẹ nên tham khảo</a></h3>
+                                        <span class="date1">
+                                            <img src="	https://bizweb.dktcdn.net/100/438/408/themes/904142/assets/clockico.svg" alt="">
+                                            <span class="author1-text1">14/06/2023</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="iteam1">
+                                    <a href="">
+                                        <img src="img/blog/ao-dai-be-trai-yody-vn-13.webp" alt="" class="iteam1-img">
+                                    </a>
+                                    <div class="iteam1-text">
+                                        <h3><a href="" class="big-content-link">5 mẫu áo dài bé trai & Cách chọn áo dài Tết cho bé trai</a></h3>
+                                        <span class="date1">
+                                            <img src="	https://bizweb.dktcdn.net/100/438/408/themes/904142/assets/clockico.svg" alt="">
+                                            <span class="author1-text1">14/06/2023</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="iteam1">
+                                    <a href="">
+                                        <img src="img/blog/ao-hoodie-tre-em-1.webp" alt="" class="iteam1-img">
+                                    </a>
+                                    <div class="iteam1-text">
+                                        <h3><a href="" class="big-content-link">1001 cách phối đồ với áo hoodie trẻ em SIÊU HOT</a></h3>
+                                        <span class="date1">
+                                            <img src="	https://bizweb.dktcdn.net/100/438/408/themes/904142/assets/clockico.svg" alt="">
+                                            <span class="author1-text1">14/06/2023</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <a href="" class="more">
+                                    <span>
+                                        Xem chi tiết
+                                    </span>
+                                    <img src="https://bizweb.dktcdn.net/100/438/408/themes/904142/assets/more-blog.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="tab1">
+                                <div class="iteam-big">
+                                    <a href="" class="img-link">
+                                        <img src="img/blog/dong-phuc-di-bien.webp" alt="" class="img-icon">
+                                    </a>
+                                    <div class="big-content">
+                                        <h3><a href="" class="big-content-link">1000+ mẫu áo đồng phục đi biển sành điệu NỔI BẦN BẬT hè này</a></h3>
+                                        <p class="text-p">
+                                            Các mẫu áo đồng phục đi biển không chỉ đem lại sự đồng điệu, thống nhất cho các thành viên trong gia đình, đội nhóm hoặc đoàn thể, mà còn...</p>
+                                        <a href="" class="chude">Có thể bạn chưa biết</a>
+                                        <p class="meta1">
+                                            <span class="author1">
+                                                <img src="img/blog/logoo.webp" alt="">
+                                                <span class="author1-text">Phò Le Phương</span>
+                                            </span>
+                                            <span class="date1">
+                                                <img src="	https://bizweb.dktcdn.net/100/438/408/themes/904142/assets/clockico.svg" alt="">
+                                                <span class="author1-text">14/06/2023</span>
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="iteam1">
+                                    <a href="">
+                                        <img src="img/blog/dong-phuc-gia-dinh-di-du-lich-he-yody-vn-19.webp" alt="" class="iteam1-img">
+                                    </a>
+                                    <div class="iteam1-text">
+                                        <h3><a href="" class="big-content-link">5+ Gợi ý cho đồng phục gia đình đi du lịch ngày hè thêm ý nghĩa</a></h3>
+                                        <span class="date1">
+                                            <img src="	https://bizweb.dktcdn.net/100/438/408/themes/904142/assets/clockico.svg" alt="">
+                                            <span class="author1-text1">14/06/2023</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="iteam1">
+                                    <a href="">
+                                        <img src="img/blog/dong-phuc-hop-lop-yody-vn-9.webp" alt="" class="iteam1-img">
+                                    </a>
+                                    <div class="iteam1-text">
+                                        <h3><a href="" class="big-content-link">10+ Mẫu đồng phục họp lớp THỜI TRANG VÀ CHẤT LƯỢNG</a></h3>
+                                        <span class="date1">
+                                            <img src="	https://bizweb.dktcdn.net/100/438/408/themes/904142/assets/clockico.svg" alt="">
+                                            <span class="author1-text1">14/06/2023</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="iteam1">
+                                    <a href="">
+                                        <img src="img/blog/dong-phuc-team-building-cho-cty-doanh-nghiep-dot-he-nay-yodyvn.webp" alt="" class="iteam1-img">
+                                    </a>
+                                    <div class="iteam1-text">
+                                        <h3><a href="" class="big-content-link">99+ mẫu đồng phục team building cho công ty doanh nghiệp vào hè</a></h3>
+                                        <span class="date1">
+                                            <img src="	https://bizweb.dktcdn.net/100/438/408/themes/904142/assets/clockico.svg" alt="">
+                                            <span class="author1-text1">14/06/2023</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <a href="" class="more">
+                                    <span>
+                                        Xem chi tiết
+                                    </span>
+                                    <img src="https://bizweb.dktcdn.net/100/438/408/themes/904142/assets/more-blog.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Phần cuối -->
+        <footer>
+            <div class="footer">
+                <div class="container">
+                    <div class="row footer-top">
+                        <div class="column1">
+                            <p class="sum">“Đặt sự hài lòng của khách hàng là ưu tiên số 1 trong mọi suy nghĩ hành động của mình” là sứ mệnh, là triết lý, chiến lược.. luôn cùng YODY tiến bước</p>
+                            <p class="text-h4 mb-2">ĐĂNG KÝ NHẬN THÔNG TIN</p>
+                            <form action="" method="post" id="mc-embedded-subscribe-form" class="mtSubcribeForm" name="mc-embedded-subscribe-form">      
+                                <input id="email" name="EMAIL" type="email" value="" class="input_newsletter subcribe-email form-control" placeholder="Nhập email đăng ký của bạn">
+                                <button type="submit" id="subscribe" name="subscribe" class="btn btn-subscribe">Đăng ký</button>
+                                <span id="errorEmailText" class='errorEmailText'></span>
+                            </form>
+                            <div class="social">
+                                <a href="" class="social-button" ><img width="40" height="40" src="//bizweb.dktcdn.net/100/438/408/themes/904142/assets/social_1.png?1686300533764" alt=""/></a>
+                                <a href="" class="social-button" ><img width="40" height="40" src="//bizweb.dktcdn.net/100/438/408/themes/904142/assets/social_2.png?1686300533764" alt=""/></a>
+                                <a href="" class="social-button" ><img width="40" height="40" src="//bizweb.dktcdn.net/100/438/408/themes/904142/assets/social_3.png?1686300533764" alt=""/></a>
+                                <a href="" class="social-button" ><img width="40" height="40" src="//bizweb.dktcdn.net/100/438/408/themes/904142/assets/social_4.png?1686300533764" alt=""/></a>
+                                <a href="" class="social-button" ><img width="40" height="40" src="//bizweb.dktcdn.net/100/438/408/themes/904142/assets/social_5.png?1686300533764" alt=""/></a>
+                                <a href="" class="social-button" ><img width="40" height="40" src="//bizweb.dktcdn.net/100/438/408/themes/904142/assets/social_6.png?1686300533764" alt=""/></a>
+                                <a href="" class="social-button" ><img width="40" height="40" src="//bizweb.dktcdn.net/100/438/408/themes/904142/assets/social_7.png?1686300533764" alt=""/></a>
+                                <a href="" class="social-button" ><img width="40" height="40" src="//bizweb.dktcdn.net/100/438/408/themes/904142/assets/social_8.png?1686300533764" alt=""/></a>
+                            </div>
+                        </div>
+                        <div class="column2 foo-2">
+                            <h4 class="title-menu">Về Yody</h4>
+                            <ul class="list-menu">
+                                <li class="li_menu"><a href="" title="Giới thiệu" >Giới thiệu</a></li>
+                                <li class="li_menu"><a href="" title="Liên hệ" >Liên hệ</a></li>
+                                <li class="li_menu"><a href="" title="Tin tức" >Tin tức</a></li>
+                                <li class="li_menu"><a href="" title="Tuyển dụng" >Tuyển dụng</a></li>
+                                <li class="li_menu"><a href="" title="Hệ thống cửa hàng" >Hệ thống cửa hàng</a></li>
+                                <li class="li_menu"><a href="" title="Hàng mới về" >Hàng mới về</a></li>
+                                <li class="li_menu"><a href="" title="Ưu đãi hàng Outlet" >Ưu đãi hàng Outlet</a></li>
+                            </ul>
+                        </div>
+                        <div class="column3 foo-2 ">
+                            <h4 class="title-menu">HỖ TRỢ KHÁCH HÀNG </h4>
+                            <ul class="list-menu">
+                                <li class="li_menu"><a href="" title="Hướng dẫn chọn size">Hướng dẫn chọn size</a></li>
+                                <li class="li_menu"><a href="" title="Chính sách khách hàng thân thiết">Chính sách khách hàng thân thiết</a></li>
+                                <li class="li_menu"><a href="" title="Chính sách bảo hành, đổi/trả">Chính sách bảo hành, đổi/trả</a></li>
+                                <li class="li_menu"><a href="" title="Chính sách bảo mật">Chính sách bảo mật</a></li>
+                                <li class="li_menu"><a href="" title="Thanh toán, giao nhận">Thanh toán, giao nhận</a></li>
+                                <li class="li_menu"><a href="" title="Chính sách Đồng phục">Chính sách Đồng phục</a></li>
+                                <li class="li_menu"><a href="" title="Chính sách bảo mật thông tin khách hàng">Chính sách bảo mật thông tin khách hàng</a></li>
+                            </ul>
+                        </div>
+                        <div class="column4 foo-2">
+                            <h4 class="title-menu active">CÔNG TY CP THỜI TRANG YODY</h4>
+                            <ul class="list-menu" style="display:block">
+                                <li class="fone"><img src="//bizweb.dktcdn.net/100/438/408/themes/904142/assets/map.svg?1686300533764" alt="map" />
+                                    Công ty cổ phần Thời trang YODY
+                                    <br>Mã số thuế: 0801206940
+                                    <br class="tuan">Địa chỉ: Đường An Định - Phường Việt Hòa - Thành phố Hải Dương - Hải Dương
+                                </li>
+                                
+                                <li class="fone">
+                                    <img src="//bizweb.dktcdn.net/100/438/408/themes/904142/assets/icon_address.png?1686300533764" alt="phone" />
+                                    <a target="_blank"  href="" rel="nofollow">Tìm cửa hàng gần bạn nhất</a>
+                                </li>
+            
+                                <li class="fone">
+                                    <img src="//bizweb.dktcdn.net/100/438/408/themes/904142/assets/phone.svg?1686300533764" alt="phone" />
+                                    <a href="">Liên hệ đặt hàng: 024 999 86 999</a>
+                                    <a href="">Thắc mắc đơn hàng: 024 999 86 999</a>
+                                    <a href="">Góp ý khiếu nại: 1800 2086</a>
+                                </li>
+                                <li  class="fone">
+                                    <img src="//bizweb.dktcdn.net/100/438/408/themes/904142/assets/email.svg?1686300533764" alt="phone" />
+                                    <a href="">Email: chamsockhachhang@yody.vn</a></li>
+                            </ul>
+                            <div class="logo-foo">
+                                <a href="" target="_blank" class="bct"><img src="img/headerfooter/footer/bct.webp" alt=""></a>
+                                <a href="" target="_blank" title="DMCA.com Protection Status" class="dmca-badge"> <img src="img/headerfooter/footer/dmca.png" alt=""></a> 
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <hr/>
+                        © YODY - Bản quyền thuộc về Công ty cổ phần thời trang YODY
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <a href="javascript:;" id="scrollTopBtn" class="ico-fix back-top show">
+            <img src="//bizweb.dktcdn.net/100/438/408/themes/904142/assets/icon-go-to-top.svg?1686300533764" alt="backtop">
+        </a>
+        <div class="zalo-chat-widget">
+			<a class="zalo-chat-widget-link" href="">
+				<img src="//bizweb.dktcdn.net/100/438/408/themes/904142/assets/zalo-icon.svg?1686300533764" alt="zalo">
+			</a>
+		</div>  
+    </div>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js" integrity="sha512-eP8DK17a+MOcKHXC5Yrqzd8WI5WKh6F1TIk5QZ/8Lbv+8ssblcz7oGC8ZmQ/ZSAPa7ZmsCU4e/hcovqR8jfJqA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'SVN-Gilroy'; /* Tên của font chữ */
+    src: url('/thuctap/font/svn-gilroy_med.ttf'); /* Đường dẫn đến file font chữ trên máy chủ web */
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: 'SVN-Gilroy', sans-serif;
+}
+
+
+.main-form-login{
+    text-align: center;
+}
+.headline{
+    margin: 60px 0px 30px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 500;
+}
+
+.h2_1{
+    margin-right: 6px;
+    color: #131382;
+}
+
+.h2_2{
+    margin-left: 6px;
+    color: #fcaf17;
+}
+.input_name {
+    outline: none;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 20px;
+    border: 1px solid #727070;
+}
+
+.input_submit {
+    margin-bottom: 20px;
+    width: 425px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #fcaf17;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 500;
+    border: 0px solid #727070;
+    cursor: pointer;
+}
+
+.cotainer_bottom {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.content-a {
+    font-size: 18px;
+    text-decoration: none !important;
+    color: #fcaf17;
+    padding-left: 5px;
+    font-weight: 500;
+}
+
+.cotainer_bottom p {
+    margin: 0 10px 0 10px;
+    font-size: 16px;
+    color: #595959;
+}
+
+
+
+.bottom_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.bottom-gg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 48px;
+    font-size: 1.4rem;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 500px;
+    text-decoration: none;
+    color: #000;
+    margin: 0 12px;
+}
+
+.icon_fb {
+    margin-left: 5px;
+}
+
+.bottom-fb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 48px;
+    font-size: 1.4rem;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 500px;
+    text-decoration: none;
+    color: #000;
+    margin: 0 12px;
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    font-size: 18px;
+}
+
+.buttom_login {
+    text-decoration: none !important;
+    color: #fcaf17;
+    padding-left: 5px;
+    font-weight: 500;
+}

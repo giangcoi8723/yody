@@ -1,0 +1,5 @@
+headerfooter
+index: banner, list1, list2, list5, slider
+saleup
+giohang
+chitietsanpham: previewimage, productdetail, comment
