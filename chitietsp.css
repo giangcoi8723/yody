@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'SVN-Gilroy'; /* Tên của font chữ */
-  src: url('/font/svn-gilroy_med.ttf'); /* Đường dẫn đến file font chữ trên máy chủ web */
+  src: url('font/svn-gilroy_med.ttf'); /* Đường dẫn đến file font chữ trên máy chủ web */
 }
 main{
     margin-top: 145px;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'SVN-Gilroy', sans-serif;
+    font-family: 'SVN-Gilroy';
 }
 main a{
     text-decoration: none;
