@@ -876,6 +876,9 @@ z-index: 10;
     width: 100%;
     height: 100%;
  }
+ .product-info{
+    margin-bottom: 20px;
+ }
  .product-info .product-name a{
     color: #000;
  }
