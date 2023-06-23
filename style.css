@@ -242,6 +242,10 @@
     text-align: center;
     border-radius: 50%;
     background-color: rgb(252,175,23);
+    color: #11006F;
+}
+.cart span{
+    color: #11006F;
 }
 .nav-menu a{
     padding-top: 10px;

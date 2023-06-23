@@ -8,34 +8,40 @@
     box-sizing: inherit;
     font-family: 'SVN-Gilroy';
 }
-
+.fone {
+    font-size: 16px;
+  }
+  .column1 .mb-2{
+    font-size: 16px;
+  }
+ 
 html {
     font-family: 'SVN-Gilroy';
     font-size: 62.5%;
     box-sizing: border-box;
 }
 
-main .header-blog {
+.header-blog {
     width: 1200px;
     margin: 0 auto;
 }
-main .container-blog{
+.container-blog{
     width: 1200px;
     margin: 0 auto;
 }
 
-main .header-blog_bgr {
+.header-blog_bgr {
     background: url("https://bizweb.dktcdn.net/100/438/408/themes/904142/assets/blog_all_banner.jpg?1686388609560") center center no-repeat;
     position: relative;
     height: 450px;
 }
 
-main .header-blog_img {
+.header-blog_img {
     width: 100%;
     height: 100%;
 }
 
-main .text {
+.text {
     background-color: rgba(0, 0, 0, 0.5);
     width: 422px;
     height: 450px;
@@ -44,40 +50,40 @@ main .text {
     align-items: center;
 }
 
-main .content {
+.content {
     padding: 0 50px;
     color: #fff;
 }
 
-main .content-span {
+.content-span {
     display: block;
     font-size: 2rem;
     margin-top: 10px;
 }
 
-main .title {
+.title {
     font-size: 2.8rem;
     margin: 40px;
 }
 
-main .title>a {
+.title>a {
     display: block;
     text-decoration: none;
     color: #fff;
     padding: 10px 0;
 }
 
-main .sum {
+.sum {
     font-size: 1.6rem;
     padding: 10px 0;
     line-height: 20px;
 }
 
-main .date {
+.date {
     font-size: 1.6rem;
 }
 
-main .link {
+.link {
     display: inline-block;
     text-decoration: none;
     color: #fff;
@@ -91,21 +97,21 @@ main .link {
     text-align: center;
 }
 
-main .link:hover {
+.link:hover {
     background-color: #dd9403;
 }
 
-main .container {
+.container {
     max-width: 1240px !important;
     padding: unset !important;
     width: 100% !important;
 }
 
-main .row {
+.row {
     display: flex;
 }
 
-main .title {
+.title {
     color: #fcaf17;
     font-size: 2.2rem;
     font-weight: 600;
@@ -113,12 +119,12 @@ main .title {
     text-align: center;
 }
 
-main .left a {
+.left a {
     position: relative;
     text-decoration: none;
 }
 
-main .left img {
+.left img {
     width: 711px;
     left: 534px;
     color: #fcaf17;
@@ -128,7 +134,7 @@ main .left img {
     text-align: left;
 }
 
-main .content1 {
+.content1 {
     position: absolute;
     bottom: 40px;
     left: 40px;
@@ -137,17 +143,17 @@ main .content1 {
     color: #FFF;
     max-width: 425px;
     font-size: 1.4rem;
-    font-family: 'SVN-Gilroy';
+    font-family: sans-serif;
     margin-bottom: 10px;
 }
 
-main .content1 span {
+.content1 span {
     color: #ffffff;
     line-height: 24px;
     text-align: left;
 }
 
-main .right {
+.right {
     margin-bottom: 22px;
     padding-left: 30px;
     width: 100%;
@@ -157,41 +163,41 @@ main .right {
     overflow-y: scroll;
 }
 
-main .right::-webkit-scrollbar {
+.right::-webkit-scrollbar {
     width: 5px;
 }
 
-main .right::-webkit-scrollbar-track {
+.right::-webkit-scrollbar-track {
     background-color: #ffffff;
 }
 
-main .right::-webkit-scrollbar-thumb {
+.right::-webkit-scrollbar-thumb {
     background-color: #888;
     border-radius: 4px;
     margin-left: 200px;
 }
 
-main .right::-webkit-scrollbar-thumb:hover {
+.right::-webkit-scrollbar-thumb:hover {
     background-color: #555;
 }
 
-main .right-item {
+.right-item {
     display: inline-block;
     vertical-align: top;
     width: 100%;
 }
 
-main .right img {
+.right img {
     width: 178px;
     height: 122px;
 }
 
-main .item {
+.item {
     margin: 0px 0px 15px;
     display: flex;
 }
 
-main .right h3 {
+.right h3 {
     font-size: 1.6rem;
     text-transform: uppercase;
     overflow: hidden;
@@ -201,11 +207,11 @@ main .right h3 {
     -webkit-line-clamp: 1;
 }
 
-main .right h3 a:hover{
+.right h3 a:hover{
     color: #fcaf17;
 }
-main .right p {
-    font-family: 'SVN-Gilroy';
+.right p {
+    font-family: sans-serif;
     font-size: 1.4rem;
     overflow: hidden;
     display: block;
@@ -216,12 +222,12 @@ main .right p {
     margin-top: 22px;
 }
 
-main .right h3 a {
+.right h3 a {
     text-decoration: none;
     color: #000;
 }
 
-main .meta {
+.meta {
     display: inline-block;
     vertical-align: top;
     width: 100%;
@@ -230,7 +236,7 @@ main .meta {
     line-height: 32px;
 }
 
-main .author {
+.author {
     background: url(//bizweb.dktcdn.net/100/438/408/themes/904142/assets/blog_author.png?1686796776998) left center no-repeat;
     float: left;
     padding-left: 38px;
@@ -241,40 +247,42 @@ main .author {
     
 }
 
-main .date {
+.date {
     float: right;
     background: url(img1/clockico.svg) left center no-repeat;
     padding-left: 23px;
 }
 
-main .content2 {
+.content2 {
     margin-left: 12px;
     height: 150px;
 }
 
-main .comtainer-tab {
+.comtainer-tab {
     width: 1200px;
     margin: 0 auto;
 }
-
-main .row1 {
+.comtainer-tab{
+    margin-bottom: 40px;
+  }
+.row1 {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     column-gap: 12px;
 }
 
-main .img-icon {
+.img-icon {
     width: 100%;
     height: 178px;
 }
 
-main .big-content {
+.big-content {
     min-height: 222px;
     padding: 12px 16px;
 }
 
-main .iteam1-text h3,
-main .big-content h3 {
+.iteam1-text h3,
+.big-content h3 {
     font-size: 1.6rem;
     overflow: hidden;
     height: 44px;
@@ -286,17 +294,17 @@ main .big-content h3 {
     text-transform: uppercase;
 }
 
-main .iteam1-text h3:hover>a,
-main .big-content h3:hover>a {
+.iteam1-text h3:hover>a,
+.big-content h3:hover>a {
     color: #fcaf17;
 }
 
-main .big-content-link {
+.big-content-link {
     text-decoration: none;
     color: #000;
 }
 
-main .text-p {
+.text-p {
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
@@ -309,7 +317,7 @@ main .text-p {
     overflow: hidden;
 }
 
-main .chude {
+.chude {
     display: inline-block;
     line-height: 30px;
     vertical-align: top;
@@ -323,13 +331,13 @@ main .chude {
     font-size: 1.4rem;
 }
 
-main .meta1 {
+.meta1 {
     display: flex;
     align-items: center;
 }
 
-main .date1,
-main .author1 {
+.date1,
+.author1 {
     display: flex;
     align-items: center;
     min-width: 83px;
@@ -337,32 +345,32 @@ main .author1 {
     margin-right: 3px;
 }
 
-main .author1-text {
+.author1-text {
     padding-left: 2px;
     font-size: 1.1rem;
 }
 
-main .iteam1 {
+.iteam1 {
     display: flex;
     align-items: center;
     padding: 20px 0;
     border-top: 1px solid #ccc;
 }
 
-main .iteam1-img {
+.iteam1-img {
     width: 97px;
 }
 
-main .iteam1-text {
+.iteam1-text {
     padding-left: 18px;
 }
 
-main .author1-text1 {
+.author1-text1 {
     padding-left: 3px;
     font-size: 1.4rem;
 }
 
-main .more {
+.more {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -374,11 +382,11 @@ main .more {
     color: #000;
 }
 
-main .more img {
+.more img {
     margin-left: 10px;
 }
 
-main .more:hover {
+.more:hover {
     color: #fff;
     background-color: #fcaf17;
 }
